@@ -1,0 +1,45 @@
+.border {
+  border: 1px solid red;
+  padding: 10px;
+}
+.sidebar{
+    height: 60vh;
+}
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.main{
+    grid-area: main;
+}
+.ads{
+    grid-area: ads;
+}
+.footer{
+    grid-area: footer;
+}
+.parent {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "header header header header header"
+    "sidebar nav nav nav ads"
+    "sidebar main main main ads"
+    "sidebar main main main ads"
+    "sidebar main main main ads"
+    "sidebar main main main ads"
+    "sidebar main main main ads"
+    "sidebar main main main ads"
+    "sidebar main main main ads"
+    "sidebar main main main ads"
+    "sidebar main main main ads"
+    "sidebar main main main ads"
+    "sidebar main main main ads"
+    "footer footer footer footer footer";
+}
